@@ -57,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Color(0xFA000000),
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
@@ -79,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   width: 300,
                   decoration: const BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Color(0xFFD339E1),
+                      color: Color(0xFF370393),
                   ),
                 ),
               ),
@@ -90,7 +90,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   width: 300,
                   decoration: const BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Color(0xFF5114B7)
+                      color: Color(0xFF10032D)
                   ),
                 ),
               ),
@@ -100,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 300,
                   width: 600,
                   decoration: const BoxDecoration(
-                      color: Color(0xFFFFAB99)
+                      color: Color(0xFF745AD3)
                   ),
                 ),
               ),
@@ -128,10 +128,10 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                           const SizedBox(height: 8),
                           const Text(
-                            'Good Morning',
+                            'Hi! I am Mohammad Sahil and this is My Weather App :)',
                             style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 25,
+                                color: Colors.white70,
+                                fontSize: 16,
                                 fontWeight: FontWeight.bold
                             ),
                           ),
@@ -251,10 +251,11 @@ class _HomeScreenState extends State<HomeScreen> {
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
                                         const Text(
-                                          'Temp Max',
+                                          'Max Temp',
                                           style: TextStyle(
                                               color: Colors.white,
                                               fontWeight: FontWeight.w300
+
                                           ),
                                         ),
                                         const SizedBox(height: 3),
